@@ -1,0 +1,292 @@
+<svg preserveAspectRatio="none" viewBox="0 0 200 200" width="48" height="48" class="tiktok-qmnyxf-SvgContainer e1ugmybf1">
+            <defs>
+                <mask id="redhole-self-detector">
+                    <rect width="100%" height="100%" fill="white"></rect>
+                    <style data-emotion="tiktok dt84ji-Circle animation-1gjz153">
+                        .tiktok-dt84ji-Circle {
+                            stroke-width: 0;
+                            r: 36px;
+                            cy: 99px;
+                            fill: #fe2c55;
+                            cx: 128px;
+                            -webkit-animation: animation-1gjz153 1s cubic-bezier(.05, 0, 1, 1) infinite;
+                            animation: animation-1gjz153 1s cubic-bezier(.05, 0, 1, 1) infinite;
+                            fill: #000;
+                        }
+
+                        @-webkit-keyframes animation-1gjz153 {
+                            25% {
+                                cx: 100px;
+                                r: 24px;
+                            }
+
+                            50% {
+                                cx: 60px;
+                                r: 36px;
+                            }
+
+                            75% {
+                                cx: 100px;
+                                r: 43.199999999999996px;
+                            }
+
+                            100% {
+                                cx: 140px;
+                                r: 36px;
+                            }
+                        }
+
+                        @keyframes animation-1gjz153 {
+                            25% {
+                                cx: 100px;
+                                r: 24px;
+                            }
+
+                            50% {
+                                cx: 60px;
+                                r: 36px;
+                            }
+
+                            75% {
+                                cx: 100px;
+                                r: 43.199999999999996px;
+                            }
+
+                            100% {
+                                cx: 140px;
+                                r: 36px;
+                            }
+                        }
+                    </style>
+                    <circle class="tiktok-dt84ji-Circle e1ugmybf0"></circle>
+                </mask>
+                <mask id="greenhole-self-detector">
+                    <rect width="100%" height="100%" fill="white"></rect>
+                    <style data-emotion="tiktok nuz7yg-Circle animation-1u0u36m">
+                        .tiktok-nuz7yg-Circle {
+                            stroke-width: 0;
+                            r: 36px;
+                            cy: 99px;
+                            fill: #3af2ff;
+                            cx: 60px;
+                            -webkit-animation: animation-1u0u36m 1s cubic-bezier(.05, 0, 1, 1) infinite;
+                            animation: animation-1u0u36m 1s cubic-bezier(.05, 0, 1, 1) infinite;
+                            fill: #000;
+                        }
+
+                        @-webkit-keyframes animation-1u0u36m {
+                            25% {
+                                cx: 100px;
+                                r: 43.199999999999996px;
+                            }
+
+                            50% {
+                                cx: 140px;
+                                r: 36px;
+                            }
+
+                            75% {
+                                cx: 100px;
+                                r: 21.599999999999998px;
+                            }
+
+                            100% {
+                                cx: 60px;
+                                r: 36px;
+                            }
+                        }
+
+                        @keyframes animation-1u0u36m {
+                            25% {
+                                cx: 100px;
+                                r: 43.199999999999996px;
+                            }
+
+                            50% {
+                                cx: 140px;
+                                r: 36px;
+                            }
+
+                            75% {
+                                cx: 100px;
+                                r: 21.599999999999998px;
+                            }
+
+                            100% {
+                                cx: 60px;
+                                r: 36px;
+                            }
+                        }
+                    </style>
+                    <circle class="tiktok-nuz7yg-Circle e1ugmybf0"></circle>
+                </mask>
+            </defs>
+            <style data-emotion="tiktok 1ibclz-Circle animation-1u0u36m">
+                .tiktok-1ibclz-Circle {
+                    stroke-width: 0;
+                    r: 36px;
+                    cy: 99px;
+                    fill: #0f0f0f;
+                    cx: 60px;
+                    -webkit-animation: animation-1u0u36m 1s cubic-bezier(.05, 0, 1, 1) infinite;
+                    animation: animation-1u0u36m 1s cubic-bezier(.05, 0, 1, 1) infinite;
+                }
+
+                @-webkit-keyframes animation-1u0u36m {
+                    25% {
+                        cx: 100px;
+                        r: 43.199999999999996px;
+                    }
+
+                    50% {
+                        cx: 140px;
+                        r: 36px;
+                    }
+
+                    75% {
+                        cx: 100px;
+                        r: 21.599999999999998px;
+                    }
+
+                    100% {
+                        cx: 60px;
+                        r: 36px;
+                    }
+                }
+
+                @keyframes animation-1u0u36m {
+                    25% {
+                        cx: 100px;
+                        r: 43.199999999999996px;
+                    }
+
+                    50% {
+                        cx: 140px;
+                        r: 36px;
+                    }
+
+                    75% {
+                        cx: 100px;
+                        r: 21.599999999999998px;
+                    }
+
+                    100% {
+                        cx: 60px;
+                        r: 36px;
+                    }
+                }
+            </style>
+            <circle stroke-width="2" stroke="#3AF2FF" class="tiktok-1ibclz-Circle e1ugmybf0"></circle>
+            <style data-emotion="tiktok 1ie96h1-Circle animation-1u0u36m">
+                .tiktok-1ie96h1-Circle {
+                    stroke-width: 0;
+                    r: 36px;
+                    cy: 99px;
+                    fill: #3af2ff;
+                    cx: 60px;
+                    -webkit-animation: animation-1u0u36m 1s cubic-bezier(.05, 0, 1, 1) infinite;
+                    animation: animation-1u0u36m 1s cubic-bezier(.05, 0, 1, 1) infinite;
+                }
+
+                @-webkit-keyframes animation-1u0u36m {
+                    25% {
+                        cx: 100px;
+                        r: 43.199999999999996px;
+                    }
+
+                    50% {
+                        cx: 140px;
+                        r: 36px;
+                    }
+
+                    75% {
+                        cx: 100px;
+                        r: 21.599999999999998px;
+                    }
+
+                    100% {
+                        cx: 60px;
+                        r: 36px;
+                    }
+                }
+
+                @keyframes animation-1u0u36m {
+                    25% {
+                        cx: 100px;
+                        r: 43.199999999999996px;
+                    }
+
+                    50% {
+                        cx: 140px;
+                        r: 36px;
+                    }
+
+                    75% {
+                        cx: 100px;
+                        r: 21.599999999999998px;
+                    }
+
+                    100% {
+                        cx: 60px;
+                        r: 36px;
+                    }
+                }
+            </style>
+            <circle mask="url(#redhole-self-detector)" class="tiktok-1ie96h1-Circle e1ugmybf0"></circle>
+            <style data-emotion="tiktok 162i5jd-Circle animation-1gjz153">
+                .tiktok-162i5jd-Circle {
+                    stroke-width: 0;
+                    r: 36px;
+                    cy: 99px;
+                    fill: #fe2c55;
+                    cx: 128px;
+                    -webkit-animation: animation-1gjz153 1s cubic-bezier(.05, 0, 1, 1) infinite;
+                    animation: animation-1gjz153 1s cubic-bezier(.05, 0, 1, 1) infinite;
+                }
+
+                @-webkit-keyframes animation-1gjz153 {
+                    25% {
+                        cx: 100px;
+                        r: 24px;
+                    }
+
+                    50% {
+                        cx: 60px;
+                        r: 36px;
+                    }
+
+                    75% {
+                        cx: 100px;
+                        r: 43.199999999999996px;
+                    }
+
+                    100% {
+                        cx: 140px;
+                        r: 36px;
+                    }
+                }
+
+                @keyframes animation-1gjz153 {
+                    25% {
+                        cx: 100px;
+                        r: 24px;
+                    }
+
+                    50% {
+                        cx: 60px;
+                        r: 36px;
+                    }
+
+                    75% {
+                        cx: 100px;
+                        r: 43.199999999999996px;
+                    }
+
+                    100% {
+                        cx: 140px;
+                        r: 36px;
+                    }
+                }
+            </style>
+            <circle mask="url(#greenhole-self-detector)" class="tiktok-162i5jd-Circle e1ugmybf0"></circle>
+        </svg>

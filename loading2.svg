@@ -1,0 +1,21 @@
+
+<svg preserveAspectRatio="none" viewBox="0 0 200 200" width="48" height="48" class="tiktok-qmnyxf-SvgContainer e1ugmybf1">
+    <defs>
+        <mask id="redhole-self-detector">
+            <rect width="100%" height="100%" fill="white"></rect>
+            
+            <circle class="tiktok-dt84ji-Circle e1ugmybf0"></circle>
+        </mask>
+        <mask id="greenhole-self-detector">
+            <rect width="100%" height="100%" fill="white"></rect>
+            
+            <circle class="tiktok-nuz7yg-Circle e1ugmybf0"></circle>
+        </mask>
+    </defs>
+    
+    <circle stroke-width="2" stroke="#3AF2FF" class="tiktok-1ibclz-Circle e1ugmybf0"></circle>
+    
+    <circle mask="url(#redhole-self-detector)" class="tiktok-1ie96h1-Circle e1ugmybf0"></circle>
+    
+    <circle mask="url(#greenhole-self-detector)" class="tiktok-162i5jd-Circle e1ugmybf0"></circle>
+</svg>

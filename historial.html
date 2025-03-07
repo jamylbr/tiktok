@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Historial de Transacciones</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <style>
+    /* Fondo y tipografía inspirados en TikTok */
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 22px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    /* Contenedor de historial similar a una tarjeta */
+    .history-container {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #181818;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+      overflow-y: auto;
+      max-height: 400px;
+    }
+    /* Cada transacción se muestra como una tarjeta */
+    .transaction {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .transaction:last-child {
+      border-bottom: none;
+    }
+    .transaction-info {
+      display: flex;
+      flex-direction: column;
+    }
+    .transaction-info p {
+      margin: 2px 0;
+      font-size: 14px;
+    }
+    .transaction-amount {
+      font-weight: bold;
+      font-size: 16px;
+      color: #fdd835; /* Color de acento dorado */
+    }
+    .transaction-date p {
+      font-size: 12px;
+      opacity: 0.7;
+      margin: 0;
+    }
+    /* Botones con estilo TikTok */
+    .btn {
+      display: block;
+      width: 90%;
+      max-width: 400px;
+      margin: 20px auto 10px auto;
+      padding: 10px;
+      background-color: #fdd835;
+      color: #000;
+      border: none;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+    }
+    .btn-clear {
+      background-color: #e53935;
+      color: #fff;
+    }
+    .btn-back {
+      background-color: #2196f3;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div id="historialApp">
+    <h1>Historial de Transacciones</h1>
+    <div class="history-container">
+      <div class="transaction" v-for="(tx, index) in transactions" :key="index">
+        <div class="transaction-info">
+          <p class="transaction-amount">+{{ tx.amount }} Coins</p>
+          <p>Costo: ${{ tx.cost }}</p>
+        </div>
+        <div class="transaction-date">
+          <p>{{ tx.date }}</p>
+        </div>
+      </div>
+      <p v-if="transactions.length === 0" style="text-align: center; padding: 10px;">No hay transacciones registradas.</p>
+    </div>
+    <button class="btn btn-clear" @click="clearHistory">Limpiar Historial</button>
+    <button class="btn btn-back" @click="goBack">Volver</button>
+  </div>
+  
+  <script>
+    new Vue({
+      el: '#historialApp',
+      data: {
+        transactions: []
+      },
+      methods: {
+        loadTransactions: function() {
+          let storedTransactions = localStorage.getItem('transactions');
+          if (storedTransactions) {
+            this.transactions = JSON.parse(storedTransactions);
+          }
+        },
+        clearHistory: function() {
+          if (confirm("¿Estás seguro de limpiar el historial?")) {
+            this.transactions = [];
+            localStorage.removeItem('transactions');
+          }
+        },
+        goBack: function() {
+          window.location.href = 'index.html'; // Ajusta la ruta si tu index se llama de otra forma
+        }
+      },
+      created: function() {
+        this.loadTransactions();
+      }
+    });
+  </script>
+</body>
+</html>
